@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cricket Gear Hub - About Us</title>
+  <link rel="stylesheet" href="BSCS25120_style.css">
+  <script src="BSCS25120_script.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+ 
+  <header>
+    <nav class="navbar">
+      <div class="logo">Cricket Gear Hub</div>
+      <ul class="nav-links">
+        <li><a href="BSCS25120_Home.html">HOME</a></li>
+        <li><a href="BSCS25120_Products.html">PRODUCTS</a></li>
+        <li><a href="BSCS25120_Contact.html" class="active">ABOUT US</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="contact-page">
+    <div class="contact-box">
+      <h2>Contact Us</h2>
+      <p><i class="fas fa-phone"></i> Cell: +92 300 1234567</p>
+      <p><i class="fas fa-envelope"></i> Email: cricketgearhub@gmail.com</p>
+      <p><i class="fas fa-map-marker-alt"></i> Location: Lahore, Pakistan</p>
+
+     
+      <div class="social-icons">
+        <a href="tel:+923001234567" target="_blank"><i class="fas fa-phone"></i></a>
+        <a href="mailto:cricketgearhub@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+   
+    <div class="contact-form">
+      <h2>Send Us a Message</h2>
+      <form onsubmit="return validateForm()">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email">
+
+        <label for="message">Message:</label>
+        <textarea id="message" placeholder="Write your message"></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+
+<div id="chatbot-container">
+    <h3>Chatbot</h3>
+    <div id="chat-log"></div>
+    <input type="text" id="user-input" placeholder="Type your message...">
+    <button onclick="sendMessage()">Send</button>
+</div>
+
+
+  
+  <footer>
+    © 2025 Cricket Gear Hub | All Rights Reserved
+  </footer>
+
+</body>
+</html>
